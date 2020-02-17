@@ -19,8 +19,8 @@ class InteractiveRecord
     end
     column_names.compact
   end
-  
-    
+
+
 
   def self.column_names
   DB[:conn].results_as_hash = true
